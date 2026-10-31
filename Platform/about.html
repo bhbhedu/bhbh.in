@@ -1,0 +1,414 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Be Human Bring-up Human</title>
+  <meta name="description" content="About Be Human Bring-up Human and our vision for humanistic education.">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .vision-cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      margin-top: 3rem;
+    }
+
+    .vision-card {
+      background: white;
+      padding: 3rem;
+      border-radius: 32px;
+      box-shadow: 0 4px 14px rgba(42, 35, 33, 0.04);
+    }
+
+    .vision-card p {
+      font-size: clamp(1.125rem, 1.1rem + 0.3vw, 1.375rem);
+      line-height: 1.6;
+      margin-bottom: 0;
+    }
+
+    .icon-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+      margin-top: 4rem;
+    }
+
+    .icon-grid-item {
+      text-align: center;
+    }
+
+    .icon-grid-item .icon-circle {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: var(--sand);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 1.5rem;
+      font-size: 2rem;
+    }
+
+    .founder-image-placeholder {
+      width: 100%;
+      padding-top: 100%;
+      background: var(--sand);
+      border-radius: 32px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .founder-image-placeholder img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    @media (max-width: 768px) {
+      .vision-cards {
+        grid-template-columns: 1fr;
+      }
+
+      .icon-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .icon-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body data-bg="cream" data-accent="maroon">
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo"><img src="BHBH website Logo.png" alt="BHBH Logo"></a>
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="programmes.html" class="nav-link">Programmes</a>
+        <a href="about.html" class="nav-link active">About</a>
+        <a href="career.html" class="nav-link">Career</a>
+        <a href="contact.html" class="nav-link">Contact Us</a>
+      </nav>
+      <div class="header-actions desktop-only">
+        <a href="contact.html?type=workshop" class="btn btn-primary">Book a Workshop</a>
+      </div>
+      <button class="mobile-menu-btn"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div class="mobile-nav">
+    <div class="mobile-nav-links">
+      <a href="index.html">Home</a>
+      <a href="programmes.html">Programmes</a>
+      <a href="about.html">About</a>
+      <a href="career.html">Career</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+    <div style="margin-top: 3rem; display: flex; flex-direction: column; align-items: center; gap: 1.5rem;">
+      <a href="contact.html?type=workshop" class="btn btn-primary">Book a Workshop</a>
+    </div>
+  </div>
+
+  <!-- Hero & Intro -->
+  <section class="section" style="padding-top:160px; padding-bottom: 2rem;">
+    <div class="container text-center reveal">
+      <h2 style="font-size: clamp(2rem, 1.8rem + 1vw, 2.5rem); margin-bottom: 1rem;">Who We Are</h2>
+      <h1 style="margin-bottom: 2rem;">Transforming Education. Transforming Humanity.</h1>
+      <p style="margin: 0 auto; max-width: 800px; font-size: 1.25rem;">
+        At Be Human Bring-up Human, we believe education should nurture academic and holistic excellence through a
+        humanistic approach. We empower learners, teachers and parents to create learning environments that foster
+        confidence, empathy, resilience, values and respect, nurturing capable minds, compassionate hearts and better
+        human beings.
+      </p>
+    </div>
+  </section>
+
+  <!-- Our Journey -->
+  <section class="section bg-cream" data-bg="cream" data-accent="forest" style="padding-top: 3rem;">
+    <div class="container text-center reveal">
+      <h2 style="margin-bottom: 1rem;">Our Journey</h2>
+      <div style="max-width: 800px; margin: 0 auto; text-align: left; font-size: 1.125rem;">
+        <p>The idea and dream of building an Education Solutions enterprise was envisioned by Founder, Priyanka G, in 2022. What began as a personal vision gradually evolved through years of learning, experience, and insights gained from the field of education.</p>
+        <p>The idea was founded on October 8, 2022, and took a significant step forward with its official registration on September 2, 2026.</p>
+        <p>More than building an organisation, BHBH represents years of learning, ideas, experience, and a deep belief in meaningful education&mdash;brought to life with purpose.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Vision -->
+  <section class="section bg-sand" data-bg="sand" data-accent="terracotta">
+    <div class="container">
+      <h2 class="text-center reveal">Our Vision</h2>
+      <div class="vision-cards">
+        <div class="vision-card reveal delay-1">
+          <p>"To create a world where education goes beyond knowledge and skills to nurture dignity, empathy,
+            compassion, inclusion, responsibility and meaningful human connection: empowering every individual to learn,
+            grow and contribute to a peaceful and happy world."</p>
+        </div>
+        <div class="vision-card reveal delay-2">
+          <p>"Making learning simpler, meaningful and effective: empowering students to understand deeply, think
+            creatively, apply knowledge and create solutions."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Who We Work With -->
+  <section class="section bg-cream" data-bg="cream" data-accent="river">
+    <div class="container">
+      <h2 class="text-center reveal">Who we work with</h2>
+      <div class="icon-grid">
+        <div class="icon-grid-item reveal delay-1">
+          <div class="icon-circle">🏫</div>
+          <h3>Schools</h3>
+        </div>
+        <div class="icon-grid-item reveal delay-2">
+          <div class="icon-circle">👩‍🏫</div>
+          <h3>Teachers/Educators</h3>
+        </div>
+        <div class="icon-grid-item reveal delay-3">
+          <div class="icon-circle">👦</div>
+          <h3>Students</h3>
+        </div>
+        <div class="icon-grid-item reveal delay-1">
+          <div class="icon-circle">👨‍👩‍👧</div>
+          <h3>Parents/Families</h3>
+        </div>
+        <div class="icon-grid-item reveal delay-2">
+          <div class="icon-circle">🏛️</div>
+          <h3>Teacher Education Institutions</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why BHBH Principles (Compact List) -->
+  <section class="section bg-sand" data-bg="sand" data-accent="ochre">
+    <div class="container reveal">
+      <h2 class="text-center" style="margin-bottom: 3rem;">Why BHBH?</h2>
+      <div style="display: grid; gap: 1.5rem; max-width: 800px; margin: 0 auto;">
+        <div style="display: grid; grid-template-columns: 40px 1fr; gap: 1.5rem; align-items: flex-start;">
+          <div style="color:var(--maroon); font-size:2rem; text-align: center; line-height:1.2;">♥</div>
+          <div>
+            <h3 style="margin-bottom:0.25rem;">Human-centred</h3>
+            <p style="margin-bottom:0;">Putting dignity and well-being at the heart of learning.</p>
+          </div>
+        </div>
+        <div style="display: grid; grid-template-columns: 40px 1fr; gap: 1.5rem; align-items: flex-start;">
+          <div style="color:var(--forest); font-size:2rem; text-align: center; line-height:1.2;">⚙</div>
+          <div>
+            <h3 style="margin-bottom:0.25rem;">Practical</h3>
+            <p style="margin-bottom:0;">Giving participants strategies they can use beyond the workshop.</p>
+          </div>
+        </div>
+        <div style="display: grid; grid-template-columns: 40px 1fr; gap: 1.5rem; align-items: flex-start;">
+          <div style="color:var(--ochre); font-size:2rem; text-align: center; line-height:1.2;">🌱</div>
+          <div>
+            <h3 style="margin-bottom:0.25rem;">Age-appropriate</h3>
+            <p style="margin-bottom:0;">Adapting content, language and activities to the developmental needs of
+              learners.</p>
+          </div>
+        </div>
+        <div style="display: grid; grid-template-columns: 40px 1fr; gap: 1.5rem; align-items: flex-start;">
+          <div style="color:var(--river); font-size:2rem; text-align: center; line-height:1.2;">🤝</div>
+          <div>
+            <h3 style="margin-bottom:0.25rem;">Inclusive</h3>
+            <p style="margin-bottom:0;">Respecting differences in culture, background, ability, gender, beliefs and
+              circumstances.</p>
+          </div>
+        </div>
+        <div style="display: grid; grid-template-columns: 40px 1fr; gap: 1.5rem; align-items: flex-start;">
+          <div style="color:var(--terracotta); font-size:2rem; text-align: center; line-height:1.2;">✨</div>
+          <div>
+            <h3 style="margin-bottom:0.25rem;">Experiential</h3>
+            <p style="margin-bottom:0;">Encouraging participation, reflection, discussion and meaningful application.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Meet our team -->
+  <section class="section bg-cream" data-bg="cream" data-accent="maroon">
+    <div class="container reveal">
+      <h2 class="text-center" style="margin-bottom: 3rem;">Meet our team</h2>
+
+      <div style="display: grid; grid-template-columns: 1fr; gap: 4rem; max-width: 1000px; margin: 0 auto;">
+
+        <!-- Founder -->
+        <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 3rem; align-items: center;">
+          <div class="founder-image-placeholder">
+            <img src="founder.jfif" alt="Priyanka G - Founder">
+          </div>
+          <div>
+            <h3 style="color: var(--maroon);">Priyanka G — Founder</h3>
+            <p>An English Literature and Communication educator with 4+ years of experience across CBSE and IB
+              curricula, Priyanka is passionate about Humanistic Education, communication skills and holistic learning.
+              As a Certified POCSO Trainer, she founded BHBH to bring practical, human-centred educational solutions to
+              learners, teachers, parents and schools.</p>
+          </div>
+        </div>
+
+        <!-- Interns Grid -->
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 3rem; margin-top: 1rem;">
+          
+          <!-- Intern 1 -->
+          <div class="text-center" style="text-align: center;">
+            <div class="founder-image-placeholder" style="width: 150px; height: 150px; padding-top: 0; margin: 0 auto 1.5rem auto; border-radius: 50%;">
+              <img src="ai_automation_intern_1790188637935.jpg" alt="R B Madan - AI Automation Intern">
+            </div>
+            <h4 style="margin-bottom: 0.5rem; color: var(--maroon);">R B Madan</h4>
+            <p class="small-text" style="margin-bottom: 0;">AI Automation Intern</p>
+          </div>
+
+          <!-- Intern 2 -->
+          <div class="text-center" style="text-align: center;">
+            <div class="founder-image-placeholder" style="width: 150px; height: 150px; padding-top: 0; margin: 0 auto 1.5rem auto; border-radius: 50%;">
+              <img src="legal_intern_1790188649091.jpg" alt="Nethra - Legal Intern">
+            </div>
+            <h4 style="margin-bottom: 0.5rem; color: var(--maroon);">Nethra</h4>
+            <p class="small-text" style="margin-bottom: 0;">Legal Intern</p>
+          </div>
+
+          <!-- Intern 3 -->
+          <div class="text-center" style="text-align: center;">
+            <div class="founder-image-placeholder" style="width: 150px; height: 150px; padding-top: 0; margin: 0 auto 1.5rem auto; border-radius: 50%;">
+              <img src="cyber_security_intern_1790188659900.jpg" alt="Prashant - Cyber Security Intern">
+            </div>
+            <h4 style="margin-bottom: 0.5rem; color: var(--maroon);">Prashant</h4>
+            <p class="small-text" style="margin-bottom: 0;">Cyber Security Intern</p>
+          </div>
+
+          <!-- Intern 4 -->
+          <div class="text-center" style="text-align: center;">
+            <div class="founder-image-placeholder" style="width: 150px; height: 150px; padding-top: 0; margin: 0 auto 1.5rem auto; border-radius: 50%;">
+              <img src="technology_intern_1790188675655.jpg" alt="Praveen - Technology Intern">
+            </div>
+            <h4 style="margin-bottom: 0.5rem; color: var(--maroon);">Praveen</h4>
+            <p class="small-text" style="margin-bottom: 0;">Technology Intern</p>
+          </div>
+
+          <!-- Intern 5 -->
+          <div class="text-center" style="text-align: center;">
+            <div class="founder-image-placeholder" style="width: 150px; height: 150px; padding-top: 0; margin: 0 auto 1.5rem auto; border-radius: 50%;">
+              <img src="research_intern_1790188687445.jpg" alt="Prasanna G - Research Intern">
+            </div>
+            <h4 style="margin-bottom: 0.5rem; color: var(--maroon);">Prasanna G</h4>
+            <p class="small-text" style="margin-bottom: 0;">Research Intern</p>
+          </div>
+
+          <!-- Intern 6 -->
+          <div class="text-center" style="text-align: center;">
+            <div class="founder-image-placeholder" style="width: 150px; height: 150px; padding-top: 0; margin: 0 auto 1.5rem auto; border-radius: 50%;">
+              <img src="academic_intern_1790188703550.jpg" alt="Prarthana G - Academic development Intern">
+            </div>
+            <h4 style="margin-bottom: 0.5rem; color: var(--maroon);">Prarthana G</h4>
+            <p class="small-text" style="margin-bottom: 0;">Academic development Intern</p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Philosophy -->
+  <section class="section bg-sand" data-bg="sand" data-accent="maroon">
+    <div class="container text-center reveal">
+      <h2 class="text-center">Our Philosophy</h2>
+      <h2 class="serif"
+        style="color:var(--maroon); max-width:900px; margin:2rem auto; font-size: clamp(1.5rem, 1.2rem + 1.5vw, 2.5rem);">
+        "What then is the purpose of national education? Rather than devise complex theoretical interpretations, it is
+        better to start by looking to the lovely child who sits on your knee and ask yourself: What can I do to assure
+        that this child will be able to lead the happiest life possible?"
+      </h2>
+      <p style="font-weight:600; margin-bottom: 3rem;">— Tsunesaburo Makiguchi</p>
+
+      <div style="max-width: 800px; margin: 0 auto;">
+        <p class="build-statement"><span class="highlight">Education is not just about what a child learns, but about
+            who the child becomes. When teachers, parents and educators learn to approach children with empathy, dignity
+            and understanding, they
+            create the conditions for children to grow into confident, compassionate and responsible human
+            beings.</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Approach -->
+  <section class="section bg-cream" data-bg="cream" data-accent="forest">
+    <div class="container text-center reveal">
+      <h2>Our Approach</h2>
+      <div class="approach-grid">
+        <div class="approach-item" style="color:var(--river);">
+          <h3>INFORM</h3>
+          <div class="approach-info">
+            <p style="color:var(--ink); font-weight: normal; margin-bottom: 0;">Building awareness, understanding and
+              knowledge.</p>
+          </div>
+        </div>
+        <div class="approach-item" style="color:var(--forest);">
+          <h3>EMPOWER</h3>
+          <div class="approach-info">
+            <p style="color:var(--ink); font-weight: normal; margin-bottom: 0;">Helping individuals recognise their
+              voice, choices, strengths and responsibilities.</p>
+          </div>
+        </div>
+        <div class="approach-item" style="color:var(--ochre);">
+          <h3>EQUIP</h3>
+          <div class="approach-info">
+            <p style="color:var(--ink); font-weight: normal; margin-bottom: 0;">Providing practical skills, strategies
+              and tools that can be applied in real situations.</p>
+          </div>
+        </div>
+        <div class="approach-item" style="color:var(--maroon);">
+          <h3>HUMANISE</h3>
+          <div class="approach-info">
+            <p style="color:var(--ink); font-weight: normal; margin-bottom: 0;">Putting dignity, empathy, compassion and
+              respect at the heart of education and relationships.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer bg-maroon">
+    <div class="footer-wave">
+      <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M0 120 V 60 Q 300 0 600 60 T 1200 60 V 120" fill="var(--maroon)" />
+        <path d="M0 60 Q 300 0 600 60 T 1200 60" fill="none" stroke="var(--terracotta)" stroke-width="4" />
+      </svg>
+    </div>
+    <div class="container">
+      <div class="footer-bottom" style="flex-wrap: wrap; gap: 1rem;">
+        <p>&copy; 2026 Be Human Bring-up Human. All rights reserved.</p>
+        <p><a href="privacy.html">Privacy Policy</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <div class="floating-social">
+    <a href="https://www.instagram.com/be.human.bringup.human?stkn=NXRtaXBleHd2Mmhh" target="_blank" rel="noopener noreferrer" class="float-btn float-ig" aria-label="Instagram">
+      <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+    </a>
+    <a href="https://www.linkedin.com/company/be-human-bring-up-human/" target="_blank" rel="noopener noreferrer" class="float-btn float-li" aria-label="LinkedIn">
+      <svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    </a>
+    <a href="https://wa.me/919344232197?text=Hi%20BHBH%2C%20I%27d%20like%20to%20know%20more%20about%20your%20programmes." target="_blank" rel="noopener noreferrer" class="fab" aria-label="Chat with us on WhatsApp">
+      <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+      <span class="fab-text">Chat with us</span>
+    </a>
+  </div>
+</body>
+
+</html>
